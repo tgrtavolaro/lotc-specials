@@ -1,0 +1,22 @@
+{ "display": 
+  { "firstperson_lefthand": 
+    { "translation": [0,-6,-2]
+    , "scale": [2,2,1]
+    , "rotation": [0,-6,0]
+    }
+  , "thirdperson_lefthand": 
+    { "translation": [0.5,-1.5,0.5]
+    , "rotation": [33.5,-45,0]
+    }
+  , "thirdperson_righthand": 
+    { "translation": [0.5,-1.5,0.5]
+    , "rotation": [33.5,-45,0]
+    }
+  , "firstperson_righthand": 
+    { "translation": [0,-6,-2]
+    , "scale": [2,2,1]
+    , "rotation": [0,-6,0]
+    }
+  }
+, "parent": "./buckler"
+}

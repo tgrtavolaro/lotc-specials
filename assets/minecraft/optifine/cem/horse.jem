@@ -1,67 +1,45 @@
-{
-  "textureSize": [64,64],
-  "models":
+{ "models": 
   [
-    {
-      "model": "./estelavern/head.jpm",
-      "part": "head",
-      "attach": true,
-      "rotate": [-12.5,0,0],
-      "translate": [8,-2,-9.5]
+    { "part": "head"
+    , "model": "./horse/head.jpm"
+    , "attach": true
     }
-    ,
-    {
-      "model": "./estelavern/neck.jpm",
-      "part": "neck",
-      "attach": true,
-      "translate": [0,0,-1]
-    }
-    ,
-    {
-      "model": "./estelavern/body.jpm",
-      "part": "body",
-      "attach": true
-    }
-    ,
-    {
-      "model": "./estelavern/tail.jpm",
-      "part": "tail",
-      "attach": true,
-      "translate": [0,0,-2]
-    }
-    ,
-    {
-      "model": "./estelavern/left_leg.jpm",
-      "part": "front_left_leg",
-      "attach": true,
-      "translate": [-1,0,3]
-    }
-    ,
-    {
-      "model": "./estelavern/right_leg.jpm",
-      "part": "front_right_leg",
-      "attach": true,
-      "translate": [1,0,3]
-    }
-    ,
-    {
-      "model": "./estelavern/left_leg.jpm",
-      "part": "back_left_leg",
-      "attach": true,
-      "translate": [-1,0,1]
-    }
-    ,
-    {
-      "model": "./estelavern/right_leg.jpm",
-      "part": "back_right_leg",
-      "attach": true,
-      "translate": [1,0,1]
-    }
-    ,
-    {
-      "model": "./estelavern/saddle.jpm",
-      "part": "saddle",
-      "attach": true
-    }
-  ]	
+  ,
+    { "part": "neck"
+    , "model": "./horse/neck.jpm"
+    , "attach": true
+    },
+    { "part": "body"
+    , "model": "./horse/body.jpm"
+    , "attach": true
+    },
+    { "part": "tail"
+    , "model": "./horse/tail.jpm"
+    , "attach": true
+    },
+    { "part": "front_left_leg"
+    , "model": "./horse/front_left_leg.jpm"
+    , "attach": true
+    , "translate": [-1,0,3]
+    },
+    { "part": "front_right_leg"
+    , "model": "./horse/front_right_leg.jpm"
+    , "attach": true
+    , "translate": [1,0,3]
+    },
+    { "part": "back_left_leg"
+    , "model": "./horse/rear_left_leg.jpm"
+    , "attach": true
+    , "translate": [-1,0,1]
+    },
+    { "part": "back_right_leg"
+    , "model": "./horse/rear_right_leg.jpm"
+    , "attach": true
+    , "translate": [1,0,1]
+    },
+    { "part": "saddle"
+    , "model": "./horse/saddle.jpm"
+    , "attach": true
+    }]
+, "textureSize": [64,64]
 }
